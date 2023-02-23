@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisans Store | Anasayfa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!------- Hero - Header - Nav ------->
+
+    <section class="hero">
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="products.html">Ürünlerimiz</a></li>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+        <div class="text-box">
+            <h1>Aradığın lisans burada!</h1>
+            <p>Bireysel ve kurumsal müşteriler için lisans satış mağazası. </p>
+            <a href="#lisans" class="white-btn">Ürünlerimizi Keşfedin</a>
+        </div>
+    </section>
+
+    <!------- Lisans Çeşitleri ------->
+
+    <section class="lisans" id="lisans">
+        <h1>Lisans Çeşitleri</h1>
+        <p>Toplu alımlar için lütfen iletişim sayfasından bize mesaj gönderin.</p>
+        <div class="row">
+            <div class="lisans-col">
+                <h3>Windows</h3>
+                <p>Son sürüm Windows 11 de dahil olmak üzere birçok Windows lisansının satışını gerçekleştiriyoruz.</p>
+            </div>
+            <div class="lisans-col">
+                <h3>Microsoft Office</h3>
+                <p>Office 2021 gibi hesabınıza tanımlı lisanslar alabileceğiniz gibi dilerseniz Office 365 abonelikleri
+                    de satın alabilirsiniz.</p>
+            </div>
+            <div class="lisans-col">
+                <h3>Anti-virüs</h3>
+                <p>Bilgisayarınızı çevrimiçi tehditlerden korumak için antivirüs programı satın almanızı öneririz.</p>
+            </div>
+        </div>
+    </section>
+
+    <!------- Mağazalarımız ------->
+
+    <section class="store">
+        <h1>Mağazalarımız</h1>
+        <p>Dilerseniz şubelerimizden birine gelerek alışveriş yapabilirsiniz.</p>
+        <div class="row">
+            <div class="store-col">
+                <img src="images/istanbul.png" alt="Lisans Store İstanbul Şubesi">
+                <div class="layer">
+                    <h3>İSTANBUL</h3>
+                </div>
+            </div>
+            <div class="store-col">
+                <img src="images/ankara.png" alt="Lisans Store Ankara Şubesi">
+                <div class="layer">
+                    <h3>ANKARA</h3>
+                </div>
+            </div>
+            <div class="store-col">
+                <img src="images/izmir.png" alt="Lisans Store İzmir Şubesi">
+                <div class="layer">
+                    <h3>İZMİR</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- Hizmetlerimiz ------->
+
+    <section class="service">
+        <h1>Hizmetlerimiz</h1>
+        <p>Siz değerli müşterilerimiz için verdiğimiz bazı hizmetler.</p>
+        <div class="row">
+            <div class="service-col">
+                <img src="images/repair.png" alt="computer repair">
+                <h3>Bilgisayar Tamiri</h3>
+                <p>10 yılı aşkın deneyimli teknisyen kadromuzla üstesinden gelemeyeceğimiz sorun yok.</p>
+            </div>
+            <div class="service-col">
+                <img src="images/format.png" alt="format">
+                <h3>Format Atma</h3>
+                <p>Bilgisayarınızın yavaşladığını düşünüyorsanız mevcut verileriniz silinmeden bilgisayarınızı
+                    formatlayalım.</p>
+            </div>
+            <div class="service-col">
+                <img src="images/recovery.png" alt="recovery">
+                <h3>Veri Kurtarma</h3>
+                <p>Bilgisayarınız bozulduğu için verilerine ulaşamıyor musunuz? Verilerinizi sorunsuz kurtaralım.</p>
+            </div>
+        </div>
+    </section>
+
+    <!------- Müşteri Yorumları ------->
+
+    <section class="customer">
+        <h1>Müşteri Yorumları</h1>
+        <p>Müşteri memnuniyeti en önemli ilkemizdir.</p>
+        <div class="row">
+            <div class="customer-col">
+                <img src="images/user1.png" alt="user1">
+                <div>
+                    <p>Lisans Store web sitesinden Windows 11 lisans anahtarı satın almıştım. Satın aldığım lisans
+                        anahtarı 2 gün sonra mail adresime geldi. Hafta sonu gönderim yapmıyorlarmış. Satın alacaklar
+                        buna dikkat etsin. Bunun dışında sorunsuz bir alışverişti. Herkese tavsiye ederim.</p>
+                    <h3>Zeynep Yılmaz</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="customer-col">
+                <img src="images/user2.png" alt="user2">
+                <div>
+                    <p>Bozulan bilgisayarımdaki projeye acil ihtiyacım vardı. Lisans Store'un Ankara'daki mağazasına
+                        gittim. Sağolsunlar yardımcı oldular. Ertesi gün projemi usb bellek içinde teslim aldım. Fakat
+                        bilgisayarımın onarımı için birkaç gün daha beklemem gerekti. Neredeyse sorunsuz bir hizmetti.
+                    </p>
+                    <h3>Kerem Türkoğlu</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- Mail Teklifi ------->
+
+    <section class="mail">
+        <h1>İndirim teklifleri için email listemize <br> kaydolmak ister misiniz?</h1>
+        <a href="#" class="white-btn">Kayıt Ol</a>
+    </section>
+
+    <!------- Footer ------->
+
+    <footer>
+        <section class="footer">
+            <h4>Hakkımızda</h4>
+            <p>Türkiye'nin en deneyimli lisans satış mağazası. <br> Sosyal medya üzerinden bizi takip edin, fırsatları
+                kaçırmayın.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-solid fa-heart"></i> in Türkiye</p>
+        </section>
+    </footer>
+
+    <!------- Javascript for Toggle Menu ------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

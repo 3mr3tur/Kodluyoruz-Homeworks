@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisans Store | Hakkımızda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!------- Hero - Header - Nav ------->
+
+    <section class="half-hero">
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="products.html">Ürünlerimiz</a></li>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+        <h1>Hakkımızda</h1>
+    </section>
+
+    <!------- Hakkımızda ------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Lisans Store 10 Yaşında!</h1>
+                <p>Türkiye'nin en büyük lisans satış mağazası olmanın gururunu yaşıyoruz. 10 yılı aşan hizmetlerimiz
+                    boyunca bizi tercih eden müşterilerimize teşekkürü bir borç biliriz. Siz de İstanbul, İzmir ve
+                    Ankara'da açtığımız şubeler üzerinden sorunsuz alışverişin keyfini çıkarabilirsiniz.</p>
+                <a href="#" class="white-btn blue-btn">Ürünlerimizi Keşfedin</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="hakkımızda">
+            </div>
+        </div>
+    </section>
+
+    <!------- Footer ------->
+
+    <footer>
+        <section class="footer">
+            <h4>Hakkımızda</h4>
+            <p>Türkiye'nin en deneyimli lisans satış mağazası. <br> Sosyal medya üzerinden bizi takip edin, fırsatları
+                kaçırmayın.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-solid fa-heart"></i> in Türkiye</p>
+        </section>
+    </footer>
+
+    <!------- Javascript for Toggle Menu ------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

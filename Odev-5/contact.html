@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisans Store | İletişim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!------- Hero - Header - Nav ------->
+
+    <section class="half-hero">
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="products.html">Ürünlerimiz</a></li>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+        <h1>İletişim</h1>
+    </section>
+
+    <!------- İletişim ------->
+
+    <section class="location">
+        <iframe class="istanbul"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6016.568128649554!2d28.993102787207025!3d41.06278296337849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7023f69f4c7%3A0x31b74f9588343eef!2zxLBzdGFuYnVsIENldmFoaXIgQWzEscWfdmVyacWfIHZlIEXEn2xlbmNlIE1lcmtlemk!5e0!3m2!1str!2str!4v1677177674770!5m2!1str!2str"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="ankara"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48956.0750153568!2d32.74786328977318!3d39.92450563654592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34e2b85382e63%3A0x114de76c7167f871!2sKIZILAY%20AVM!5e0!3m2!1str!2str!4v1677177727421!5m2!1str!2str"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="izmir"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5258.6194695500535!2d27.06850213529562!3d38.400015476777064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbdd12bdc22863%3A0x20701b2d706a60f0!2zxLBzdGlueWVQYXJrIMSwem1pcg!5e0!3m2!1str!2str!4v1677177876155!5m2!1str!2str"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <address>
+                    <div>
+                        <i class="fa-solid fa-house"></i>
+                        <span>
+                            <h5>İletişim Şubemiz: İstanbul</h5>
+                            <p>İstanbul Cevahir Avm Kat:4 Lisans Store</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <a href="tel:+905554443322">
+                                <h5>+905554443322</h5>
+                            </a>
+                            <p>Açılış: 9.00 Kapanış: 21.00</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <a href="mailto:info@lisansstore.com">
+                                <h5>info@lisansstore.com</h5>
+                            </a>
+                            <p>Görüş ve önerilerinizi bekliyoruz.</p>
+                        </span>
+                    </div>
+                </address>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+                    <input type="email" name="email" placeholder="Email Adresiniz" required>
+                    <input type="text" name="subject" placeholder="Gönderi Konusu" required>
+                    <textarea rows="8" name="message" placeholder="Mesajınızı yazınız." required></textarea>
+                    <button type="submit" class="white-btn blue-btn">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!------- Footer ------->
+
+    <footer>
+        <section class="footer">
+            <h4>Hakkımızda</h4>
+            <p>Türkiye'nin en deneyimli lisans satış mağazası. <br> Sosyal medya üzerinden bizi takip edin, fırsatları
+                kaçırmayın.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-solid fa-heart"></i> in Türkiye</p>
+        </section>
+    </footer>
+
+    <!------- Javascript for Toggle Menu ------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
